@@ -1,0 +1,103 @@
+
+ /*{
+    border: .1rem solid white;
+} */
+
+
+:root{
+    --green-clr: #DFFE02;
+    --gray-clr: #898989;
+    --dark-blue-clr: #171C22;
+
+}
+.bg-green{
+    background: var(--green-clr);
+}
+.bg-dark-blue{
+    background: var(--dark-blue-clr);
+}
+.txt-green{
+    color: var(--green-clr);
+}
+.txt-gray{
+    color: var(--gray-clr);
+}
+
+.main-txt{
+    letter-spacing: .3rem;
+    font-size: .9 rem;
+}
+
+.mybtn{
+    border: .1rem solid var(--green-clr) !important;
+   padding: .5rem 1.6rem;
+}
+.mybtn:hover{
+    background: transparent;
+    color: var(--green-clr);
+    
+}
+
+
+
+.hero-section{
+    min-height: 88vh;
+    margin-bottom: 90px;
+
+}
+.hero-section h1{
+    font-size: 5rem;
+}
+.hero-section p{
+    font-size: 20px;
+}
+
+.image-container{
+    width: 28rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
+    background-image: url(../img/removebg.png);
+    background-position: center;
+    background-size: 75%;
+    box-shadow: 
+    0 0 1rem white,
+    inset 0 0 1rem white,
+    0 0 2rem var(--green-clr),
+    inset 0 0 2rem var(--green-clr),
+    0 0 5rem var(--green-clr),
+    inset 0 0 2rem var(--green-clr);
+
+}
+
+.para{
+    max-width: 500px;
+}
+.gmail{
+    text-decoration: none;
+}
+
+.about-me{
+    width: 200px;
+}
+
+
+
+
+
+
+@media screen and(max-width: 680px) {
+    .hero-section h1{
+        font-size: 2rem;
+       
+    }
+    
+    .mybtn{
+        margin-bottom: 5rem;
+    }
+
+    .about-me{
+        width: 300px;
+    }
+}
