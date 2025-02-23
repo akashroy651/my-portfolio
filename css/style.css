@@ -4,6 +4,61 @@
 } */
 
 
+
+
+
+body{
+    background-color: #212428;
+}
+.write-text .text{
+    position: relative;
+    color: #00b6ff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.write-text .first-text{
+    color: #fff;
+}
+.write-text .sec-text{
+    font-weight: 900;
+}
+ .write-text .sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212428;
+    border-left: 3px solid #00b6ff;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 50%{
+        left: calc(100% + 5px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :root{
     --green-clr: #DFFE02;
     --gray-clr: #898989;
