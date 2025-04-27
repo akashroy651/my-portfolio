@@ -12,11 +12,12 @@ body{
 .write-text .text{
     position: relative;
     color: #00b6ff;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
 }
 .write-text .first-text{
     color: #fff;
+    font-size: 20px;
 }
 .write-text .sec-text{
     font-weight: 900;

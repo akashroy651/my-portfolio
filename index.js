@@ -3,17 +3,17 @@
 const text = document.querySelector(".sec-text");
 const textLoad = () =>{
   setTimeout(() =>{
-    text.textContent = "Web Designer.";
+    text.textContent = "Web Designer🥰";
   },0);
   setTimeout(() =>{
-    text.textContent = "Web Developer.";
+    text.textContent = "Web Developer😔";
   },4000);
+ // setTimeout(() =>{
+   // text.textContent = "WordPress Expert.";
+  //},8000);
   setTimeout(() =>{
-    text.textContent = "WordPress Expert.";
+    text.textContent = "Freelancer😢";
   },8000);
-  setTimeout(() =>{
-    text.textContent = "Freelancer.";
-  },12000);
 }
 
 textLoad();
